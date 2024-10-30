@@ -1,0 +1,213 @@
+.ccre_campaing_link,
+.type-ccre-campaigns .row-title {
+	color: #50575e;
+	font-weight:normal;
+	box-shadow:none !important;
+}
+.type-ccre-campaigns .row-title:hover{
+	color:#135e96;
+}
+body.post-type-ccre-campaigns .manage-column.column-title a{
+	color: #50575e !important;
+}
+.ccre_campaign_details th,
+.ccre_campaign_details td{
+	padding:10px !important;
+}
+.post-type-ccre-campaigns #screen-meta-links,
+.post-type-ccre-campaigns.post-php .wp-heading-inline,
+.post-type-ccre-campaigns.post-php .wp-header-end,
+.post-type-ccre-campaigns #post-body-content,
+.post-type-ccre-campaigns.edit-php .subsubsub,
+.post-type-ccre-campaigns.edit-php .row-actions,
+.post-type-ccre-campaigns.edit-php .tablenav > .actions{
+	display:none !important;
+}
+.post-type-ccre-campaigns.edit-php .search-box,
+.post-type-ccre-campaigns.edit-php .tablenav {
+	display:inline-block;
+}
+.post-type-ccre-campaigns.edit-php .search-box{
+	float:unset;
+}
+.post-type-ccre-campaigns.edit-php .tablenav {
+	float: right;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+.post-type-ccre-campaigns.edit-php .wp-list-table {
+	margin-top: 20px;
+}
+.post-type-ccre-campaigns.edit-php #posts-filter{
+	margin-top: 20px;
+}
+.ccre_mb2_desc {
+	font-style: italic;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.ccre_min_amount_wrap,
+.ccre_products_wrap{
+	margin-top:20px;
+}
+.ccre_tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted #ccc;
+	color: #006080;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 3px;
+}
+.ccre_tooltip .ccre_tooltiptext {
+	visibility: hidden;
+	position: absolute;
+	width: 250px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 6px;
+	z-index: 1;
+	opacity: 0;
+	transition: opacity .6s;
+	font-weight: normal;
+}
+.ccre_tooltip-top {
+	bottom: 130%;
+	left: 50%;
+	margin-left: -125px;
+}
+.ccre_tooltip-top::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+.ccre_tooltip:hover .ccre_tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.select2-selection__choice__display {
+	font-size: 12px;
+	padding: 0px !important;
+}
+.select2-selection__choice {
+	padding: 2px 6px !important;
+	margin: 5px 5px 0 0 !important;
+}
+.select2-selection.select2-selection--multiple {
+	padding-left: 5px;
+	min-height: 24px !important;
+}
+#select2-ccre_products-container{
+	margin: 0 !important;
+}
+.select2-search__field {
+	margin: 0px !important;
+	line-height: 1 !important;
+	vertical-align: unset !important;
+}
+#select2-ccre_products-results li{
+	margin: 0px;
+	padding: 8px;
+}
+.ccre_products_wrap .select2-container{
+	width:100% !important;
+}
+.ccre_products_wrap .select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+	border-right:none !important;
+}
+.ccre_mb2 td{
+	vertical-align:top !important;
+}
+#ccre_enable_min_amount,
+#ccre_enable_products {
+	margin-top: 9px;
+}
+.ccre_update {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+body.post-type-ccre-campaigns #postbox-container-1 {
+	display: none;
+}
+body.post-type-ccre-campaigns #poststuff #post-body.columns-2 {
+	margin-right: 0px;
+}
+.ccre_min_amount_wrap_hide,
+.ccre_products_wrap_hide{
+	display:none;
+}
+.ccre_mb2_alert {
+	color: red;
+	margin-top: 20px;
+}
+.ccre_alert {
+	color: red;
+}
+.post-type-ccre-campaigns.post-php #poststuff .inside {
+	margin: 12px 0 0;
+}
+.ccre_refund{
+	cursor:pointer;
+}
+.ccre_options_save_wrap{
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+}
+.ccre-settings .hndle{
+	border-bottom: solid 1px #ebebeb;
+}
+.ccre-settings .handlediv {
+	display: none;
+}
+.ccre_view_all_pro{
+	margin-left:5px;
+}
+.ccre_settings_btn{
+	margin-left:10px !important;
+}
+.ccre_success_msg{
+	margin-top:10px !important;
+}
+.ccre_loader {
+	vertical-align: middle;
+	display: none;
+}
+.post-type-ccre-campaigns.edit-php .tablenav.bottom {
+	margin-top: 20px !important;
+}
+.ccre_options_logo_class{
+	margin-top: 12px;
+}
+.ccre_img_show{
+	max-width: 300px;
+}
+.column-settings .ccre_campaing_link {
+	background: green;
+	color: #fff;
+	border: solid 1px green;
+	border-radius: 6px;
+	padding: 5px 10px;
+	font-weight: bolder;
+	text-align: center;
+	display: inline-block;
+}
+.ccre_products_label {
+	margin-bottom: 8px;
+	display: block;
+}
+.ccre_category_label {
+	margin-bottom: 8px;
+	display: block;
+	margin-top: 15px;
+}
+.ccre_error_msg {
+	border-left-color: red !important;
+}

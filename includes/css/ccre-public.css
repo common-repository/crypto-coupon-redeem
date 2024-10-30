@@ -1,0 +1,100 @@
+.ccre_img_wrapp {
+	width: 100px;
+	height: auto;
+}
+.ccre_msg_wrpp {
+	display: flex;
+	align-items: start;
+}
+.ccre_msg_right {
+	width: calc(100% - 100px);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.ccre_powerby{
+  text-align: end;
+  font-size: 11px;
+}
+.ccre_checkout_msg {
+	background: #fcfcfc;
+	padding: 15px;
+	margin-bottom: 20px;
+	/* border-left: solid 3px #000000; */
+  border:3px #0DB9E9;
+  border-style: dashed;
+  border-radius: 10px;
+}
+.ccre_checkout_msg_inner{
+	font-weight: bold;
+	color: #000;
+}
+.ccre_checkout_msg_popup {
+	border-radius: 50%;
+	border: solid 1px #000;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+	cursor: pointer;
+}
+.ccre_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.ccre_modal_content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  min-height: 50px;
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+.ccre_close {
+	color: #000;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	right: 8px;
+	top: -6px;
+}
+.ccre_close:hover,
+.ccre_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ccre_popup_msg {
+	padding: 25px;
+}
+.ccre_coupon_data {
+	margin-top: 5px;
+	color: #000;
+	font-style: italic;
+}
